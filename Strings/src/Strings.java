@@ -6,8 +6,8 @@ public class Strings {
         String A = gonyo.next("Hello World");
         String B = gonyo.next("How you doing?");
 
-        
 
-        System.out.println(A + B);
+
+        System.out.println("hello world");
     }
 }
