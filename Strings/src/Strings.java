@@ -4,7 +4,7 @@ public class Strings {
 
         //Scanner gonyo = new Scanner(System.in);
         String A = "Hello World!";
-        String B = "Hello Java";
+        String B = "Java, how u doing?";
         int length = A.length();
         int lengthB = B.length();
 
@@ -21,7 +21,7 @@ public class Strings {
         System.out.println(A.length() + B.length());
 
         //2. Which is longer, A or B?
-        int result = A.compareTo(B);
+        int result = A.length() - B.length();
 
         if(result>0)
             System.out.println("A is larger than B");
@@ -30,6 +30,11 @@ public class Strings {
         else
             System.out.println("A is equal to B");
 
+
+        //3.Capitalize first letter in A & B
+
+        System.out.println(A.substring(0,1).toUpperCase());
+        System.out.println(B.substring(0,1).toUpperCase());
     }
 
 }
